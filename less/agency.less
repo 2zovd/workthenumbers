@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: @theme-primary;
-        .heading-font;
+        color: white;
+        font-family: "RalewayRegular";
         text-transform: capitalize;
         &:hover,
         &:focus,
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     .nav {
         li {
             a {
-                .heading-font;
+                .body-font;
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: white;
@@ -289,6 +289,7 @@ h3.header-subheading {
     text-transform: none;
 }
 
+/* 
 // Portfolio Section
 
 #portfolio {
@@ -361,10 +362,12 @@ h3.header-subheading {
         }
     }
 }
+ */
 
-// Timeline
-
-.timeline {
+ /* 
+ // Timeline
+ 
+ .timeline {
     list-style: none;
     padding: 0;
     position: relative;
@@ -463,6 +466,25 @@ h3.header-subheading {
             margin-bottom: 0;
         }
     }
+ }
+ */
+
+.logo-hold {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    img {
+        margin-right: 15px;
+        width: 40px;
+        height: auto;
+        border-radius: 100px;
+        opacity: 0.7;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -660,6 +682,26 @@ footer {
         text-transform: none;
     }
 }
+
+// all
+
+.who-we-are {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        margin-bottom: 25px;
+    }
+}
+
 
 // Social Buttons
 
