@@ -392,7 +392,8 @@ fieldset[disabled] .btn-xl-left.active.active {
 .navbar-custom .nav li a:focus {
   background-size: 0 1px;
 }
-.navbar-custom .navbar-nav > .active > a {
+.navbar-custom .navbar-nav > .active > a,
+.active-link {
   border-radius: 0;
   color: white;
   background-color: #febd00;
