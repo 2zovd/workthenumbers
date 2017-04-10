@@ -359,19 +359,17 @@ header {
     cursor: default;
     border: 1px solid rgba(0,0,0,.2);
     height: 100%;
+    -webkit-transition: all .15s ease .15s;
+    -o-transition: all .15s ease .15s;
+    transition: all .15s ease .15s;
     img {
         -webkit-transition: all .3s ease .4s;
         -o-transition: all .3s ease .4s;
         transition: all .3s ease .4s;
     }
     &:hover {
-        box-shadow: 2px 2px 5px rgba(0,0,0,.3);
-        img {
-            -webkit-transform: scale(.95);
-            -ms-transform: scale(.95);
-            -o-transform: scale(.95);
-            transform: scale(.95);
-        }
+        box-shadow: 2px 2px 5px rgba(0,0,0,.25);
+
     }
     .block-subhead {
         margin-bottom: 30px;
