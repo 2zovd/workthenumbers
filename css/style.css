@@ -1041,6 +1041,7 @@ body {
     width: 80%;
     padding: 15px 0;
     margin: 10px auto 10px;
+    display: block;
   }
   header .intro-text {
     -webkit-transform: translate(-50%, -45%);
@@ -1059,6 +1060,9 @@ body {
     margin-bottom: 15px;
     font-size: 35px;
     line-height: 37px; 
+  }
+  .section-heading {
+    font-size: 30px;
   }
 }
 
