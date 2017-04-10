@@ -1034,9 +1034,40 @@ body {
     margin-right: 15px;
     width: 25px;
   }
+
+  .btn-xl,
+  .btn-xl-left {
+    min-width: auto;
+    width: 80%;
+    padding: 15px 0;
+    margin: 10px auto 10px;
+  }
+  header .intro-text {
+    -webkit-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    -o-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
+  }
+  h3.header-subheading {
+      margin-bottom: 10px;
+      margin-top: 0;
+  }
+  header .intro-text .intro-lead-in {
+    margin-bottom: 0px;
+  }
+  header .intro-text .intro-heading {
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 37px; 
+  }
 }
 
+.btn-hamb {
+  font-size: 21px;
+}
 
+.navbar-toggle {
+    padding: 8px 10px;}
 
 /* PRELOADER */
 .preloader {
