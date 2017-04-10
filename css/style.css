@@ -1061,7 +1061,7 @@ body {
     font-size: 35px;
     line-height: 37px; 
   }
-  .section-heading {
+  section h2.section-heading {
     font-size: 30px;
   }
 }
