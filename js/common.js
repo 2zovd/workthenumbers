@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
     function heightDetect() {
@@ -10,6 +12,7 @@ $(document).ready(function() {
     });
 
 });
+
 
 
 // Agency Theme JavaScript
@@ -45,3 +48,8 @@ $(document).ready(function() {
     })
 
 })(jQuery); // End of use strict
+
+
+$(window).on('load', function() {
+    $('.preloader').delay(1000).fadeOut('slow');
+});
