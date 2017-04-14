@@ -49,7 +49,3 @@ $(document).ready(function() {
 
 })(jQuery); // End of use strict
 
-
-$(window).on('load', function() {
-    $('.preloader').delay(700).fadeOut('slow');
-});
