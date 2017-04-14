@@ -1,4 +1,6 @@
-
+$(window).on('load', function() {
+    $('.preloader').delay(700).fadeOut('slow');
+});
 
 $(document).ready(function() {
 
@@ -48,4 +50,3 @@ $(document).ready(function() {
     })
 
 })(jQuery); // End of use strict
-

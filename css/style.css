@@ -1104,7 +1104,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #252839;
   z-index: 100000; }
 
 .pulse {
@@ -1115,7 +1115,7 @@ body {
   margin-top: -40px; }
   .pulse:before, .pulse:after {
     content: '';
-    border: 5px solid #949494;
+    border: 5px solid #f2b632;
     width: 80px;
     height: 80px;
     border-radius: 500px;
