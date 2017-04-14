@@ -1118,7 +1118,7 @@ body {
     border: 5px solid #f2b632;
     width: 80px;
     height: 80px;
-    border-radius: 500px;
+    border-radius: 500px; 
     position: absolute; }
   .pulse:before {
     -webkit-animation: pulse-outer .8s ease-in infinite;
